@@ -1,0 +1,11 @@
+SQL> ALTER SESSION SET "_ORACLE_SCRIPT"=true;
+세션이 변경되었습니다.
+
+SQL> CREATE USER oracle IDENTIFIED BY oracle;
+사용자가 생성되었습니다.
+
+SQL> GRANT connect, resource, dba TO oracle;
+권한이 부여되었습니다.
+
+SQL> COMMIT;
+커밋이 완료되었습니다.
